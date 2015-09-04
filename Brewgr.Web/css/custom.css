@@ -142,6 +142,8 @@
 	.auth-choice a#login { color: #ccc; font-size: 12px; font-family: Tahoma, Arial; font-size: 14px; padding-left: 12px; }
 	.auth-choice a#login:hover { color: #eee; text-decoration: underline; }
 	#Dialogs { display: none; }
+    #buildinfo { color: #666; margin-left: 12px; font-size: 11px; }
+    #buildinfo:hover { text-decoration: underline; }
 
 /* ---- [ SRM Colors ] ---------------------------------------------> */
 	.srmWhite { background: #fff; border: solid 1px #ccc; }
@@ -532,6 +534,9 @@
 	.blogpost.last { border-bottom: 0; }
 	.blogpost h4 { margin-bottom: 2px !important; color: #888; font-size: 18px; }
 	.blogpost .preview { font-size: 14px; margin-bottom: 18px; margin-top: 12px; line-height: 21px;}
+
+/* --- [ About ] --------------------------------------------------------> */
+	#about-view ul { margin: 8px 24px; list-style: disc; }
 	
 /* --- [ Contact ] --------------------------------------------------------> */
 	#contact-view textarea { width: 550px; height: 200px; resize: none; }
